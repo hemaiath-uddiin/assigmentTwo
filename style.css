@@ -134,7 +134,7 @@ button {padding: 10px 20px;margin:
         text-align: center;
     }
   } 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     .popular_section_wrapper{ 
         flex-direction: column; 
         text-align: center;
@@ -142,14 +142,14 @@ button {padding: 10px 20px;margin:
     
   }  
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     .popular_section_wrapper{ 
         flex-direction: column; 
         text-align: center;
     }
     
   }  
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     .contact_us{ 
         flex-direction: column; 
         
