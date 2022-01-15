@@ -130,7 +130,9 @@ button {padding: 10px 20px;margin:
         flex-direction: column; 
         text-align: center;
     }  
-    
+    .header { 
+        text-align: center;
+    }
   } 
   @media only screen and (max-width: 700px) {
     .popular_section_wrapper{ 
@@ -151,15 +153,18 @@ button {padding: 10px 20px;margin:
     .contact_us{ 
         flex-direction: column; 
         
-    } 
+    }   
+
     form{ 
      margin: auto;
     }
-    
+    .arrow{ 
+        display: none;
+    }
   }  
   @media only screen and (max-width: 900px) {
     footer{ 
         width: 100%; 
-        background-color: red;
+       
     }
   }  
