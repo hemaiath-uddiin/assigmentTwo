@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,300&display=swap');
+*{ 
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;
+}  
+body {
+        background: white; 
+        font-family: 'Poppins', sans-serif;
+    } 
+    /* Header section start here */
+.header_wrapper {
+        display: flex;
+    }
+    
+ header.header {
+        margin-bottom: 4%;
+    }
+    
+section.container {
+    width: 1170px;
+    margin: auto;
+} 
+p.title-des {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button.learn_more {
+    background: #ff1493a6;
+    padding: 10px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10pc;
+} 
+button.learn_more a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+    /*  popular section  end here----------------------*/ 
+
+ .our_popular {
+        text-align: center;
+        margin-bottom: 5%;
+    }   
+ .popular_section_wrapper {display: flex;flex-wrap: wrap;justify-content: space-around;}
+ .product_details h1 {
+    text-transform: capitalize;
+}
+
+article.icons {
+    color: #ffbc41;
+} 
+.popular_product { 
+    background: white; 
+    margin-top: 34px; 
+    padding: 10PX; 
+    border-radius: 22px;}
+
+.popular_section_wrapper {
+    background: whitesmoke;
+    /* border-radius: 10px; */
+} 
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+}
+
+.arrow a {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize; 
+    color: #ff1493a6;
+}  
+
+   /*  contact  section  end here----------------------*/ 
+
+
+.contact_us {
+    display: flex;
+    background: aliceblue;
+    justify-content: center;
+}
+
+
+
+form {
+    padding: 20px;
+}
+
+input {
+    padding: 12px;
+    margin: 18px;
+    border: navajowhite;
+    border-radius: 10px;
+    display: block;
+}
+
+button {padding: 10px 20px;margin:
+     15px;border: none;color: white;
+     border-radius: 10px; 
+    background:   #ff1493a6; 
+     font-size: 20px;
+    } 
+
+    footer {
+        background: #0d0d42;
+        color: white;
+        text-align: center;
+        padding: 10px; 
+        margin-top: 5px;
+    } 
+
+
+ /*  responsive design   here----------------------*/  
+ @media only screen and (max-width: 800px) {
+    .header_wrapper{ 
+        flex-direction: column; 
+        text-align: center;
+    }  
+    
+  } 
+  @media only screen and (max-width: 700px) {
+    .popular_section_wrapper{ 
+        flex-direction: column; 
+        text-align: center;
+    }
+    
+  }  
+
+  @media only screen and (max-width: 700px) {
+    .popular_section_wrapper{ 
+        flex-direction: column; 
+        text-align: center;
+    }
+    
+  }  
+  @media only screen and (max-width: 700px) {
+    .contact_us{ 
+        flex-direction: column; 
+        
+    } 
+    form{ 
+     margin: auto;
+    }
+    
+  }  
+  @media only screen and (max-width: 900px) {
+    footer{ 
+        width: 100%; 
+        background-color: red;
+    }
+  }  
