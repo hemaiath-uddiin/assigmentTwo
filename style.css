@@ -26,7 +26,11 @@ p.title-des {
     font-weight: bold;
     margin-top: 30px;
 }
-
+.tile-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
 button.learn_more {
     background: #ff1493a6;
     padding: 10px 12px;
@@ -42,10 +46,11 @@ button.learn_more a {
 }
     /*  popular section  end here----------------------*/ 
 
- .our_popular {
+    .our_popular {
         text-align: center;
-        margin-bottom: 5%;
-    }   
+        margin-bottom: 3%;
+        text-transform: capitalize;
+    }  
  .popular_section_wrapper {display: flex;flex-wrap: wrap;justify-content: space-around;}
  .product_details h1 {
     text-transform: capitalize;
@@ -114,7 +119,10 @@ button {padding: 10px 20px;margin:
         padding: 10px; 
         margin-top: 5px;
     } 
-
+    article.footer-icon i {
+        font-size: 23px;
+        margin: 10px;
+    }
 
  /*  responsive design   here----------------------*/  
  @media only screen and (max-width: 800px) {
